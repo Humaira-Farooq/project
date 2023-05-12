@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap');
+.nav-item a{
+    color: black!important;
+}
+.nav-item a:hover{
+    border-bottom:1px solid whitesmoke!important;
+    transition: 2s ease;
+}
+#Card{
+    text-align: center;
+}
+.brands{
+    width: 78%;
+    margin-left: 10%;
+}
+/* h1,h2{
+    font-family: 'Rubik', sans-serif;
+} */
+
+#text{
+    box-shadow:0 2px 8px 0 rgb(0 0 0 / 5%);
+    margin-top: 5%;
+    margin-right: 50px;
+    margin-left: 1%;
+    border-radius: 5px;
+    height: 250px;
+}
+#text_download a{
+    text-decoration: none;
+    background-color: darkgray;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+}
+#text_download a:hover{
+    background-color: aqua;
+}
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+}
+.contact-col button{
+    margin-left: 23px;
+}
+
+/* login style */
+html,
+body,
+.intro {
+  height: 100%;
+}
+
+@media (min-width: 550px) and (max-width: 750px) {
+  html,
+  body,
+  .intro {
+    height: 750px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  .intro {
+    height: 750px;
+  }
+}
+
+.mask-custom {
+  backdrop-filter: blur(15px);
+  background-color: rgba(255,255,255,.2);
+  border-radius: 3em;
+  border: 2px solid rgba(255,255,255,.1);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
